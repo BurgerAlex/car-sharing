@@ -6,10 +6,137 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Car Sharing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/styles.css.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <h1>Hello world</h1>
+<header class="main__section">
+    <section class="main__menu">
+        <div class="menu__container container">
+            <div class="main__logo">
+                <img src="images/Icon%20Logo%20Normal.svg">
+                <p class="logo__title"><span>Car</span> Sharing</p>
+            </div>
+            <ul class="main__nav">
+                <li class="nav__option">Home</li>
+                <li class="nav__option">Blog</li>
+                <li class="nav__option">Service</li>
+                <li class="nav__option">Contact</li>
+            </ul>
+        </div>
+    </section>
+    <section class="main__page container">
+        <h1 class="page__title">Car sharing</h1>
+        <p class="main__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maiores nam neque quas quasi. Architecto atque, cum eaque est illum ipsum necessitatibus nostrum placeat qui sint? Facilis ipsum perferendis quos.</p>
+        <div class="main__buttons">
+            <a href="#" class="button main__button">Share a car</a>
+            <a href="#" class="button main__button">Key features</a>
+        </div>
+    </section>
+</header>
+<section class="blog">
+    <div class="blog__heading">
+        <h2 class="blog__title">Blog</h2>
+    </div>
+    <div class="container">
+        <div class="article">
+            <div class="article__image article__image--one"></div>
+            <p class="article__title">Lorem ipsum dolor sit.</p>
+            <p class="article__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur enim explicabo nostrum. Consectetur debitis dolorem eius fugiat totam! Ducimus, provident, ullam. Consequatur deleniti dignissimos eius fugit nobis optio quaerat vitae!</p>
+            <a href="#" class="button article__button">Read more</a>
+        </div>
+        <div class="article">
+            <div class="article__image article__image--two"></div>
+            <p class="article__title">Lorem ipsum dolor sit.</p>
+            <p class="article__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aliquid commodi dolor doloremque excepturi facere magnam maxime mollitia nam, nisi quae quidem ratione ullam veritatis voluptatibus voluptatum? Consequatur, voluptatibus.</p>
+            <a href="#" class="button article__button">Read more</a>
+        </div>
+        <div class="article">
+            <div class="article__image article__image--three"></div>
+            <p class="article__title">Lorem ipsum dolor sit.</p>
+            <p class="article__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi impedit maxime natus nesciunt numquam? Dolores explicabo inventore minus quasi, voluptas voluptatum? Eum fuga laboriosam necessitatibus odit quos sit ut!</p>
+            <a href="#" class="button article__button">Read more</a>
+        </div>
+    </div>
+</section>
+<section class="service">
+    <div class="service__heading">
+        <h2 class="service__title">Service</h2>
+    </div>
+    <div class="container">
+        <div class="service__article">
+            <img class="service__image" src="images/mini1.png" alt="gearbox">
+            <h2 class="service__offer">Lorem ipsum dolor sit.</h2>
+            <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <a href="#" class="button service__button">Read more</a>
+        </div>
+        <div class="service__article">
+            <img class="service__image" src="images/mini2.png" alt="another gearbox">
+            <h2 class="service__offer">Lorem ipsum dolor sit.</h2>
+            <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <a href="#" class="button service__button">Read more</a>
+        </div>
+        <div class="service__article">
+            <img class="service__image" src="images/mini3.png" alt="steering wheel">
+            <h2 class="service__offer">Lorem ipsum dolor sit.</h2>
+            <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <a href="#" class="button service__button">Read more</a>
+        </div>
+        <div class="service__article">
+            <img class="service__image" src="images/mini4.png" alt="oh look, another gearbox">
+            <h2 class="service__offer">Lorem ipsum dolor sit.</h2>
+            <p class="service__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <a href="#" class="button service__button">Read more</a>
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="contact__heading">
+        <h2 class="contact__title">Contact</h2>
+    </div>
+    <div class="contact__content">
+        <img class="contact__image" src="images/Form%20Photo.png" alt="parked cars">
+        <form class="contact__form">
+            <input class="input" type="text" placeholder="Type your name">
+            <input class="input" type="text" placeholder="Type your e-mail">
+            <input class="input input__textarea" placeholder="Type your message"></input>
+            <div class="checkbox">
+                <input class="input__checkbox" type="checkbox">
+                <p class="checkbox__terms">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+            </div>
+        </form>
+    </div>
+    <a href="#" class="button send__button">Send</a>
+</section>
+<footer class="footer">
+    <section class="container footer__container">
+        <div class="footer__info">
+            <div class="footer__logo">
+                <img src="images/Logo%20Footer.svg">
+                <p class="logo__title footer__logo--title"><span>Car</span> Sharing</p>
+            </div>
+            <div class="footer__menu">
+                <div class="menu__column menu__one">
+                    <a href="#" class="menu__element">Home page</a>
+                    <a href="#" class="menu__element">About us</a>
+                    <a href="#" class="menu__element">Gallery</a>
+                    <a href="#" class="menu__element">Share regulation</a>
+                </div>
+                <div class="menu__column">
+                    <a href="#" class="menu__element">Price</a>
+                    <a href="#" class="menu__element">Our fleet</a>
+                    <a href="#" class="menu__element">Our clients</a>
+                    <a href="#" class="menu__element">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="copyright">Made by BurgerAlex based on Coders Lab materials</p>
+        </div>
+    </section>
+</footer>
 </body>
 </html>
